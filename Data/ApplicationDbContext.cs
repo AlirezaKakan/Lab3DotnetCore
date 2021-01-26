@@ -1,6 +1,4 @@
-﻿using System.Reflection.Emit;
-using System.Net.Security;
-using System;
+﻿using System;
 using Lab03.Models;
 using System.Collections.Generic;
 using System.Text;
@@ -25,8 +23,9 @@ namespace Lab03.Data
 
             modelBuilder.Seed();
         }
-
-        public DbSet<City> Cities { get; set; }
+        
         public DbSet<Province> Provinces { get; set; }
+        public DbSet<City> Cities { get; set; }
+        
     }
 }
