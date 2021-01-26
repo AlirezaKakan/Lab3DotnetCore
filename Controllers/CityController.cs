@@ -16,6 +16,7 @@ namespace Lab03.Controllers
 
         public CityController(ApplicationDbContext context)
         {
+        
             _context = context;
         }
 
