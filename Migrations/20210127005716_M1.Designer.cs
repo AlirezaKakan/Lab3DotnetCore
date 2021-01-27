@@ -7,10 +7,10 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Lab03.Data.Migrations
+namespace Lab03.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210127001543_M1")]
+    [Migration("20210127005716_M1")]
     partial class M1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
