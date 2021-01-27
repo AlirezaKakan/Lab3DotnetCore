@@ -19,7 +19,6 @@ namespace Lab03.Controllers
         
             _context = context;
         }
-        
 
         // GET: City
         public async Task<IActionResult> Index()
