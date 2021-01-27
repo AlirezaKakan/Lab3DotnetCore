@@ -67,7 +67,7 @@ namespace Lab03
                 endpoints.MapRazorPages();
             });
 
-            context.Database.Migrate();
+            //context.Database.Migrate();
         }
     }
 }
